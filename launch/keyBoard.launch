@@ -1,0 +1,7 @@
+<!-- 
+    
+-->
+<launch>
+    <arg name="PATH_TO_SETTINGFILE" value="$(find stdr_gmapping)/config/config.yaml"/>
+    <node name="keyboardPub_node" pkg="stdr_gmapping" type="keyboardPub_node" args="$(arg PATH_TO_SETTINGFILE)" output="screen"/>
+</launch>

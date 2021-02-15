@@ -1,0 +1,19 @@
+%YAML:1.0
+
+acc.x: 0.01
+acc.y: 0.01
+acc.z: 0.0
+
+maxSpeed.x: 0.5
+maxSpeed.y: 0.5
+maxSpeed.z: 0.0
+
+angleAcc.x: 0.0
+angleAcc.y: 0.0
+angleAcc.z: 0.01
+
+maxAngleSpeed.x: 0.0
+maxAngleSpeed.y: 0.0
+maxAngleSpeed.z: 0.3
+
+omnidirectional: 1
